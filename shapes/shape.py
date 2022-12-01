@@ -67,7 +67,7 @@ class Shape:
         ((8, False), 3): ShapeEnum.EQUALS,
         ((8, False), 4): ShapeEnum.LARGER,
         ((4, False), False): ShapeEnum.TO_STRING,
-        ((2, False), False): ShapeEnum.LENGTH,
+        ((3, True), 2): ShapeEnum.LENGTH,
         ((7, False), False): ShapeEnum.IN,
         ((6, True), False): ShapeEnum.OUT,
         ((6, True), 1): ShapeEnum.OUT_NO_LF,
